@@ -11,6 +11,28 @@ var_dump($data);
 // dengan menuliskan index nya
 echo ($data[1]).PHP_EOL;// nabi
 
+
+//operasi pada array
+
+$nabi = ['rasulallah saw','ibrahim as','yunus as','isa as'];
+
+//melihat isi array berdasarkan index
+echo($nabi[0]).PHP_EOL;//rasulalla
+//menambah array dari belakang
+$nabi[] = "khidir as";
+var_dump($nabi)."\n";
+
+$dunia = ['manusia',"amal","dosa","kebaikan"];
+var_dump($dunia);
+
+//menghapus array termasuk index nya
+unset($dunia[2]);
+var_dump($dunia);
+
+//menghitung panjang array
+echo(count($nabi)).PHP_EOL;
+//>>>>>>>>>>>>>>>>>>>>
+
 //array assosiatif , mirip object pada javascript
 $data2 =[
     'rasul'=>"muhamamd saw",

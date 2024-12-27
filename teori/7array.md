@@ -11,12 +11,41 @@ contoh diatas, jumlah nya itu ada 2
 tapi jika di hitung dengan index ny diawali dari 0,
 
 untuk memangil nilai 99
-kita gunakan index ny , dalam contoh ini index ny adalah 1
+kita gunakan index ny , dalam contoh ini 
+index ny adalah 1
 
 ```php
 $data[1] // 99
 ```
 
+
+
+
+
+
+### operasi pada array
+
+```php
+
+//memanggil isi array
+$data =['muhammad saw','isa as','ibrahim as'];
+
+$data[0];//muhamamd saw
+
+//menambah array (dari belakang)
+$data[]= "yunus as";
+// mengubah array berdasarkan index nya
+// $namavariabel[index]= isi array
+$data[0] = "RASULALLAH SAW" // isi dari index 0 akan menjadi RASULALLAH SAW
+
+
+//menghapus isi array , termasuk indexnya hilang juga , dengan function unset($variabel(index))
+
+contoh kita menghapus dosa tubuh
+kita asumsikan
+array dengan nama dunia, isi nya dosa dengan index 4
+unset(dunia(4))
+```
 ## array of object atau array assosiatif
 
 jika di javascript memiliki object
@@ -31,6 +60,10 @@ $data = [
     40 => "diangkat jadi nabi"
 ]
 ```
+
+
+
+
 untuk memanggil isi jika di array biasa menggunakan indexs nya di array of object menggunakan key ny
 contoh
 
