@@ -71,4 +71,4 @@ untuk melihat tipe data bisa menggunakna
   vardump digunakan berguna untuk melihat tipe data dengan returnnya tipe data dan juga isi dari sebuah data tersebut
 
 
-  gettyoe dgunakan untuk melihat tipe data dengan return hanya tipe nya saja
+  gettype dgunakan untuk melihat tipe data dengan return hanya tipe nya saja

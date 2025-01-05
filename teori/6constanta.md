@@ -15,3 +15,12 @@ nama nya "RASUlALLAH",
 isi nya "muhammad saw"
 
 jika kita membuat dua nama konstant yang sama maka akan error
+
+
+# update
+pada php 7 keatas untuk membuat constanta bisa dengan cara dengan mengunakan keyword `const`
+dan di dengan nama nya tanpa tanda dolar
+```php
+const data = 'ini adalah constan';
+
+```
