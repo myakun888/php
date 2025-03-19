@@ -9,3 +9,10 @@ $data = [
     1 => "muhammad",
     2 => "SAW",
 ];
+
+// ini adalah model / kita asumsikan sebagai database
+/**
+ * karena kita belum menggunakan database 
+ * 
+ * jadi kita menggunkan array, dengan nama variabel $data
+ */

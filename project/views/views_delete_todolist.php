@@ -10,18 +10,13 @@ require_once __DIR__ . "/../views/views_Todolist.php";
 function views_delete_todolist()
 {
 
-    show_todo_list() . PHP_EOL;
+    show_todo_list() . PHP_EOL; // menampilkan data todo list yang ada
     echo "masukan index / nomor TODO yang ingin di hapus" . PHP_EOL;
-    // echo "c: kembali" . PHP_EOL;
     echo "x: keluar" . PHP_EOL;
-    $pilihan = input("nomor");
-
-
-    if ($pilihan == "x") {
+    $pilihan = input("nomor"); // meminta input dari user
+    if ($pilihan == "x") { // jika pilihan == "x", maka batal dengan notice echo "batal menghapus";
         echo "batal menghapus" . PHP_EOL;
-    } else {
+    } else { //selain itu, kita akan menjalankan function deleteTodoList()
         deleteTodoList($pilihan);
     }
 }
-
-// view_delete_todolist();

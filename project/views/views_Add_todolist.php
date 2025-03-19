@@ -10,26 +10,27 @@ require_once __DIR__ . "/views_Todolist.php";
 function views_add_todo_list()
 {
 
-    # code...
+    show_todo_list(); // menampilkan todolist
+    $pilihan = input("masukan TODO "); // meneripa input dari user
 
-
-
-    // echo "selamat datang menu TAMBAH TODO" . PHP_EOL;
-    // echo "c : untuk kembali" . PHP_EOL;
-    // echo "x : untuk batal dan kembali" . PHP_EOL;
-    show_todo_list();
-    $pilihan = input("masukan TODO ");
-
-    if ($pilihan == "x") {
+    if ($pilihan == "x") { //jika pilihan x, maka batal
         echo "batal menambah TODO" . PHP_EOL;
-        // break;
-    } else {
+    } else { // selain itu , kita eksekusi dengan function addTodolist($pilihan) dengan parameternya dari inputan user
         addTodoList($pilihan);
-        // show_todo_list();
     }
-
-    // echo "TERIMAKASIH " . PHP_EOL;
 }
 
 
 // views_add_todo_list();
+/**
+ * pada file ini berisi, 
+ * kita merequire_once beberpa file, add_Todo_list.php, model.php, input.php, show_Todo_List.php dan views_Todolist.php
+ * 
+ * pada proses nya views_add_todo_list()
+ * menampilkan data , dengan menajalan function show_todo_list()
+ * meminta input dari user, dimana hasil nya akan di tampung untuk di tambahkan ke function addTodolist
+ * 
+ * lalu dari pilah akan berjalan structur control
+ * jika pilihan == x, maka batal dengan notifikasi echo "batal menambah todo"
+ * jika selain itu , maka lakukan eksekusi dengan menjalankan functiion addTodoList()
+ */
