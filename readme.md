@@ -12,3 +12,9 @@ diantaranya
 - wpu 
 - w3school
 - dan lainya yang tidak saya bisa ucapkan satu persatu
+
+
+## struktur materi
+terbagi menjadi 2 
+- teori [https://github.com/myakun888/php/tree/e970e239f7cbbc03390409cf1f2ed79047225940/teori] , silahkan baca sesuai urutan nomor
+- praktek [https://github.com/myakun888/php/tree/e970e239f7cbbc03390409cf1f2ed79047225940/praktek], pada folder ini terdapat file file prakteknya
